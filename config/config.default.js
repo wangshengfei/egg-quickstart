@@ -13,8 +13,9 @@ module.exports = appInfo => {
   const config = exports = {};
 
   // 处理 curl 请求超时
-  // 执行 http_proxy=http://127.0.0.1:[端口号] npm run de 启动命令
+  // 执行 http_proxy=http://127.0.0.1:[端口号] npm run dev 启动命令
   // 端口号 改成本地代理的端口号
+  // 比如：http_proxy=http://127.0.0.1:7890 npm run dev
   // 代理
   if (process.env.http_proxy) {
     config.httpclient = {
