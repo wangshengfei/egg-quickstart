@@ -19,7 +19,7 @@ https://github.com/eggjs/egg/issues/2589#issuecomment-429198287
 
 2.处理 curl 请求超时
   执行 http_proxy=http://127.0.0.1:[端口号] npm run dev 启动命令
-  端口号改成本地代理的端口号
+  端口号改成本地代理的端口号
 
 ```
 
