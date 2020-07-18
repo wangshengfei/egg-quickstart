@@ -1,14 +1,8 @@
-# test1
+# egg-quickstart
 
-descdd
+eggjs 快速开始
 
 ## QuickStart
-
-<!-- add docs here for user -->
-
-see [egg docs][egg] for more detail.
-
-### Development
 
 ```bash
 $ npm i
@@ -17,11 +11,15 @@ $ open http://localhost:7001/
 
 注意：
 
-可能会遇到`HPE_INVALID_METHOD`的报错，可以使用以下方式 install
+1. 可能会遇到`HPE_INVALID_METHOD`的报错，可以使用以下方式 install
 $ # reinstall deps and never lock it.
 $ rm -rf node_modules yarn.lock package-lock.json
 $ npm i --no-package-lock
 https://github.com/eggjs/egg/issues/2589#issuecomment-429198287
+
+2.处理 curl 请求超时
+  执行 http_proxy=http://127.0.0.1:[端口号] npm run dev 启动命令
+  端口号改成本地代理的端口号
 
 ```
 
